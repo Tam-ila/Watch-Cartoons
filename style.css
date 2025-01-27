@@ -1,0 +1,116 @@
+body {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(110, 58, 255);
+    color: wheat;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown a {
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(121, 193, 255);
+    border: 1px solid #ccc;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(176, 92, 254);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+h1{
+    margin-left: 400px;
+}
+
+div h1{
+    display: inline-block;
+    color: rgb(63, 54, 113);
+}
+
+.where {
+    width: 35px;
+    height: 50px;
+}
+
+.posters img {
+    width: 200px;
+    height: 290px;
+
+}
+
+.posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+.poster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 30px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+}
+
+.poster:hover {
+    background-color: gray;
+
+}
+
+.poster img {
+    border-radius: 30px;
+}
+
+.description {
+    width: 300px;
+    font-size: 25px;
+
+}
+
+.description a {
+    color: rgb(147, 31, 255);
+
+}
+
+.description:hover {
+    color: rgb(147, 31, 255);
+}
+
+footer {
+    background-color: wheat;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+footer p {
+    color: black;
+    font-size: 20px;
+}
