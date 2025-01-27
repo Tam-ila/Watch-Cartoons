@@ -23,9 +23,6 @@ header img{
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
 }
 
-.description{
-    background-color: rgb(76, 76, 115);
-}
 
 table {
     width: fit-content;
@@ -35,6 +32,8 @@ table {
 .poster {
     display: flex;
     flex-direction: row;
+     border-radius: 30px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
 }
 
 .Caput {
