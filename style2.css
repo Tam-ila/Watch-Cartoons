@@ -19,8 +19,9 @@ header img{
     display: flex;
     width: fit-content;
     margin-bottom: 20px;
-    border-radius: 30px;
+      border-radius: 30px;
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+}
 }
 
 
@@ -32,9 +33,7 @@ table {
 .poster {
     display: flex;
     flex-direction: row;
-     border-radius: 30px;
-    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
-}
+   
 
 .Caput {
     background-color: plum;
