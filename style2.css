@@ -23,6 +23,10 @@ header img{
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
 }
 
+.description{
+    background-color: rgb(76, 76, 115);
+}
+
 table {
     width: fit-content;
     margin-top: 80px;
